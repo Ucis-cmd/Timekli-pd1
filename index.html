@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<!--
+    Uģis Jansons, uj25003
+-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        font-family: "Arial";
+      }
+      body {
+        text-align: center;
+      }
+      img {
+        max-width: 100%;
+        max-height: 80vh;
+      }
+      section {
+        margin: auto;
+        width: 80%;
+      }
+      ul,
+      ol {
+        display: inline-block;
+        text-align: left;
+      }
+      table {
+        border: 1px solid black;
+        margin: auto;
+      }
+      td {
+        background-color: rgb(222, 222, 222);
+      }
+      th,
+      td {
+        padding: 12px;
+      }
+      a {
+        background-color: rgb(148, 37, 37);
+        padding: 12px 8px;
+        color: white;
+        border-radius: 20px;
+      }
+      a:hover{
+        background-color: rgb(89, 2, 2);
+      }
+      td:nth-child(2n) {
+        background-color: rgb(195, 246, 255);
+      }
+      #animals {
+        width: 100%;
+        justify-content: center;
+        gap: 25px;
+        display: flex;
+      }
+    </style>
+  </head>
+  <body>
+    <h1><i>Laipni lūgti!</i></h1>
+    <p>
+      Prieks redzēt Jūs šajā mājaslapā! Šeit var atrast dažādu informāciju par
+      dažādām lietām.
+    </p>
+    <a href="#animals">Mani mājdzīvnieki!</a>
+    <a href="https://www.wikipedia.org/">Šī ir vikipēdija!</a>
+    <section>
+      <h2>Mani mīļākie ēdieni</h2>
+      <h3>Man garšo:</h3>
+      <ul>
+        <li><strong>Siers</strong></li>
+        <li>Burkāni</li>
+        <li>Cepti kartupeļi</li>
+      </ul>
+      <h3>Man negaršo:</h3>
+      <ol>
+        <li><del>Zirņi</del></li>
+        <li>Melnā šokolāde</li>
+        <li>Paprika</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>Mani mājdzīvnieki</h2>
+      <div id="animals">
+        <div>
+          <h3>Fredis</h3>
+          <img
+            src="https://images.unsplash.com/photo-1503256207526-0d5d80fa2f47?q=80&w=1586&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Melns suns ar baltiem plankumiem"
+          />
+        </div>
+        <div>
+          <h3>Sauļuks</h3>
+          <img
+            src="https://images.unsplash.com/photo-1573865526739-10659fec78a5?q=80&w=1615&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Ruds kaķis"
+          />
+        </div>
+      </div>
+    </section>
+    <section>
+      <h2>Video</h2>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/8L_YTYnafL8?si=omzu65shhdKJ6mgI"
+        title="YouTube video player"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+    </section>
+    <section>
+      <h2>Valstis</h2>
+      <table>
+        <thead>
+          <th>Valsts</th>
+          <th>Galvaspilsēta</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Latvija</td>
+            <td>Rīga</td>
+          </tr>
+          <tr>
+            <td>Čehija</td>
+            <td>Prāga</td>
+          </tr>
+          <tr>
+            <td>Francija</td>
+            <td>Parīze</td>
+          </tr>
+          <tr>
+            <td colspan="2">Beigas</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </body>
+</html>
